@@ -28,6 +28,7 @@ body{
 }
 
 header{
+   
     margin-top: 20px;
     position: fixed;
     top: 0;
@@ -152,6 +153,7 @@ section{
 
 span{
     color: #02d04a;
+    font-size: 34px;
 }
 
 .home-content h3{
