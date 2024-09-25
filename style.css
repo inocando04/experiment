@@ -79,12 +79,17 @@ nav a.active{
 
     .burger{
         display: block;
-        cursor: pointer;
+        
+       
     }
 
     .hideSide{
         display: block;
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+       
     }
     nav{
         position: fixed;
@@ -99,14 +104,13 @@ nav a.active{
         background-color: #16161662;
 
 
-        transform: translateX(100%); /* Hidden off-screen */
-        transition: 0.4s ease; /* Smoother animation */
+       
        
     }
 
     nav.active{
         display: block;
-        transform: translateX(0);
+        
     }
 
     nav a{
