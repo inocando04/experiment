@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
 
     <header>
-        <div id="burger-menu">
-            <span></span>
-          </div>
         <a href="#" class="logo">Inocando</a>
 
-        <nav id="menu">
+        <nav>
+            <ul onclick="hideSidebar()" class="hideSide"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></ul>
             <a href="#Home"> Home</a>
             <a href="#Service" >Services</a>
             <a href="#Skills" >Skills</a>
@@ -25,6 +23,27 @@
             <a href="#Experience" >Experience</a>
             <a href="#Contact" >Contact</a>
         </nav>
+
+        <ul onclick="showSidebar()" class="burger"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></ul>
+        
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('nav');
+                sidebar.style.display = sidebar.style.display === 'block' ? 'none' : 'block';
+                sidebar.classList.toggle('active');
+            }
+
+            function hideSidebar(){
+                const sidebar = document.querySelector('nav');
+                sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
+                sidebar.classList.toggle('active');
+            }
+
+        </script>
+        
+
+
+
     </header>
 
 
