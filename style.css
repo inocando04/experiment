@@ -20,7 +20,7 @@ html{
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow-x: hidden;
     background-color: black;
@@ -249,7 +249,6 @@ span{
 .typing-text span::after{
     content: "";
     background-color: black;
-    position: absolute;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid black;
