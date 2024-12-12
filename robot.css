@@ -1,0 +1,19 @@
+.robot_container{
+ 
+
+   width: 150vw;
+   height: 50vw;
+}
+
+.Service{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    
+}
+
+.service_details{
+   
+    font-size: 1.6rem;
+}
