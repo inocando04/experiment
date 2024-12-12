@@ -179,7 +179,7 @@ span{
     transition: 0.2s linear;
 }
 
-.home-img img:hover{
+.robot_container,.home-img img:hover{
     
 
     font-size: 1.8rem;
@@ -284,10 +284,14 @@ span{
     .home{
         gap: 4rem;
     }
+
+    .Service{
+        gap: 6rem;
+    }
 }
 
 @media(max-width:995px){
-    .home{
+    .Service , .home{
         flex-direction: column;
         margin: 5rem 4rem;
     }
@@ -300,7 +304,7 @@ span{
         font-size: 5rem;
     }
 
-    .home-img img{
+    .robot_container, .home-img img{
         width: 70vw;
         margin-top: 4rem;
     }
