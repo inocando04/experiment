@@ -285,15 +285,24 @@ span{
         gap: 4rem;
     }
 
-    .Service{
-        gap: 6rem;
-    }
+    
 }
 
 @media(max-width:995px){
-    .Service , .home{
+     .home{
         flex-direction: column;
         margin: 5rem 4rem;
+    }
+
+    .Service{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+   
+    .service_content{
+        width: 60vw;
     }
 
     .home .home-content h3{

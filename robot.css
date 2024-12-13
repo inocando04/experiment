@@ -1,19 +1,60 @@
 .robot_container{
     
 
-   width: 150vw;
-   height: 50vw;
-}
+    width: 100vh;
+    height: 50vw;
 
-.Service{
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem;
+  
+ }
+ 
+ .Service{
+    display: flex;
+     justify-content: center;
+     align-items: center;
     
-}
-
-.service_details{
+    
+     max-width: 100vw;
+ }
+ 
+ .Service_container{
+    flex-direction: column;
+    justify-content: center;
+   min-height: 50vw;
    
-    font-size: 1.6rem;
-}
+   
+   display: flex;
+   flex-wrap: wrap;
+    gap: 15px;
+ }
+
+ .service_content{
+    justify-items: center;
+   margin-top: 20px;
+    height: 25vh;
+    width: 25vw;
+    text-align: center;
+    transition: 0.2s linear;
+
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.247));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(2px);
+    border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    
+ }
+
+ .service_content:hover{
+    transform: scale3d(1.03);
+    background-color:#02d04a;
+    color: black;
+    box-shadow: 0 0 25px #02d04a;
+
+
+    
+ }
+
+ .service_icons{
+ 
+    margin-top: 10px;
+ }
